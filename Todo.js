@@ -11,7 +11,7 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                <h1>Tasks</h1>
+                <h1>Tasks EDITED</h1>
                 <h2>There {this.state.numberOfTasks === 1 ? "is" : "are"} currently {this.state.numberOfTasks} Task{this.state.numberOfTasks === 1 ? "" : "s"}</h2>
                 <ul>
                     {this.state.tasks.map((task, i) => (
