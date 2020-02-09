@@ -55,9 +55,12 @@ class App extends React.Component {
         let index = event.target.dataset.index;
         this.setState(state => {
             // let newTasks = state.tasks.splice(index, 1);
-            state.tasks.splice(index, 1);
+            // state.tasks.splice(index, 1);
+            let tasks = state.tasks;
+            tasks.splice(index, 1);
             return ({
-                tasks: state.tasks
+                // tasks: state.tasks
+                tasks
             })
         })
     }
