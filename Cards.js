@@ -20,7 +20,7 @@ class App extends React.Component {
 
                 <h1>Value of front input is {this.state.frontInput}</h1>
             </div>
-        )
+        );
     }
 
     updateFrontInput = e => {
